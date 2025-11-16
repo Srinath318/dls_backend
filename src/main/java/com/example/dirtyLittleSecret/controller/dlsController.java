@@ -11,7 +11,8 @@ import java.util.List;
 @CrossOrigin(origins = {
         "http://dls.srinath.online",
         "https://dls.srinath.online",
-        "https://srinath318.github.io"
+        "https://srinath318.github.io",
+        "http://127.0.0.1:5500"
 })
 public class dlsController {
 
