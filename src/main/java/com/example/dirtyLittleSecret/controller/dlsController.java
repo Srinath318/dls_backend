@@ -8,7 +8,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://127.0.0.1:5500/")
+@CrossOrigin(origins = {
+        "https://dls.srinath.online",
+        "https://srinath318.github.io"
+})
 public class dlsController {
 
     @Autowired
