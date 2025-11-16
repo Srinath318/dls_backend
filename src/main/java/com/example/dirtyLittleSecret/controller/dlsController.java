@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(origins = {
+        "http://dls.srinath.online",
         "https://dls.srinath.online",
         "https://srinath318.github.io"
 })
